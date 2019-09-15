@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <!-- Custom SeekBar shape-->
+    <androidx.appcompat.widget.AppCompatSeekBar
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekbar01"
+            android:maxHeight="8dp"
+            android:progressDrawable="@drawable/seekbar_progress_style"
+            android:thumb="@drawable/seekbar_thumb_shape"
+            android:thumbOffset="0dp"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekbar02"
+            android:maxHeight="8dp"
+            android:progressDrawable="@drawable/seekbar_progress_style"
+            android:thumb="@drawable/seekbar_thumb_drawable01"
+            android:thumbOffset="0dp"/>
+
+    <!--<androidx.appcompat.widget.AppCompatSeekBar-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/seekbar03"-->
+    <!--android:maxHeight="8dp"-->
+    <!--android:progressDrawable="@drawable/seekbar_progress_style"-->
+    <!--android:thumb="@drawable/seekbar_thumb_drawable02"-->
+    <!--android:thumbOffset="0dp"/>-->
+
+    <!--<androidx.appcompat.widget.AppCompatSeekBar-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/seekbar04"-->
+    <!--android:maxHeight="8dp"-->
+    <!--android:progressDrawable="@drawable/seekbar_progress_style"-->
+    <!--android:thumb="@drawable/seekbar_thumb_drawable03"-->
+    <!--android:thumbOffset="0dp"/>-->
+
+</LinearLayout>
